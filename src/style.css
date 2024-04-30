@@ -137,8 +137,9 @@ footer {
     }
 
     #portfolio .grid {
-        padding: 20px;
-        gap: 20px;
+        padding: 50px 20px;
+        gap: 40px;
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .card {
@@ -169,8 +170,9 @@ footer {
     }
 
     #portfolio .grid {
-        padding: 40px 20px;
-        gap: 30px;
+        padding: 50px 20px;
+        gap: 40px;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -195,5 +197,6 @@ footer {
     #portfolio .grid {
         padding: 60px 30px;
         gap: 50px;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
