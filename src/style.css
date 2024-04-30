@@ -1,3 +1,4 @@
+/* Estilos base */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -115,4 +116,84 @@ footer {
     align-items: center;
     justify-content: space-between;
     font-size: 14px;
+}
+
+/* Estilos para telas pequenas (até 600px) */
+@media screen and (max-width: 600px) {
+    header {
+        padding: 20px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .cta-button {
+        padding: 8px 16px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    #portfolio .grid {
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .card {
+        height: auto; /* Alterando a altura para se ajustar ao conteúdo */
+    }
+
+    .card img {
+        max-width: 80%; /* Ajustando a largura da imagem */
+    }
+}
+
+/* Estilos para telas médias (de 601px até 900px) */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    header {
+        padding: 25px;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .cta-button {
+        padding: 10px 18px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    #portfolio .grid {
+        padding: 40px 20px;
+        gap: 30px;
+    }
+}
+
+/* Estilos para telas grandes (mais de 900px) */
+@media screen and (min-width: 901px) {
+    header {
+        padding: 30px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .cta-button {
+        padding: 12px 20px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    #portfolio .grid {
+        padding: 60px 30px;
+        gap: 50px;
+    }
 }
